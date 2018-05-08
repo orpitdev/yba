@@ -1,0 +1,8 @@
+{
+  "name": "yba",
+  "app_id": "1162cbee",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
