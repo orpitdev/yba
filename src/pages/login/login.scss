@@ -1,0 +1,40 @@
+page-login {
+    background-image: url('./../assets/imgs/bg_login.jpg');
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    .content-md, .content-ios{
+        background-color: transparent;
+    }
+
+    .logo{
+        width: 120px;
+        margin-top: 60px;
+    }
+
+    .item-md.item-block, .item-ios.item-block{
+        .item-inner{
+            border-bottom: 1px solid $blue;
+        }
+    }
+
+    .item-md.item-input.item-input-has-focus .item-inner,
+    .item-md.item-input.input-has-focus .item-inner {
+        border-bottom-color: $blue;
+        -webkit-box-shadow: inset 0 -1px 0 0 $blue;
+        box-shadow: inset 0 -1px 0 0 $blue;
+    }
+
+    .item-input .label-md, .item-select .label-md, .item-datetime .label-md{
+        color: $blue;
+    }
+
+    .item-input-has-focus .label-md[stacked],
+    .input-has-focus .label-md[stacked],
+    .item-input-has-focus .label-md[floating],
+    .input-has-focus .label-md[floating] {
+    color: $blue;
+    }
+}
